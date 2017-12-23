@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>addReaderCategory</title>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
+
+</head>
+<body>
+<div class="login">
+	<a href="/readerCategoryManagement.html"> <i style="font-size:2em">Back</i>  </a>
+	<h2>添加读者类别</h2>
+	<div class="login-top">
+		<h1>类别信息</h1>
+		<form action = "/addReaderCategory.jsp" method = "post" onsubmit = "return validate()">
+			<input type="text" value="类别名称" name="cana" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '类别名称';}">
+			<input type="text" value="最大借阅天数" name="days" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '最大借阅天数';}">
+			<input type="text" value="最大借阅本数" name="nums" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '最大借阅本数';}">
+			<div class="forgot">
+				<input type="submit" value="添加" >
+			</div>
+		</form>
+
+	</div>
+</div>	
+
+
+
+</body>
+</html>

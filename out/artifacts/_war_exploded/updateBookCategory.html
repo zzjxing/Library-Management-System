@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>updateBookCategory</title>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- Custom Theme files -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
+</head>
+<body>
+<div class="login">
+    <!--<%-->
+    <!--Object message = request.getAttribute("message");-->
+    <!--if(message!=null && !"".equals(message)){-->
+
+    <!--%>-->
+    <!--<script type="text/javascript">-->
+    <!--alert("<%=message%>");-->
+    <!--</script>-->
+    <!--<%} %>-->
+    <a href="/bookCategoryManagement.html" > <i style="font-size:2em">Back</i>  </a>
+    <h2>修改图书类别</h2>
+    <div class="login-top">
+        <h1>类别信息</h1>
+        <form action = "/updateBookCategory.jsp" method = "post" onsubmit = "return validate()">
+            <input type="text" value="旧类别名称" name="oldcana" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '旧类别名称';}">
+            <input type="text" value="新类别名称" name="newcana" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '新类别名称';}">
+            <div class="forgot">
+                <input type="submit" value="更新" >
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+
+</body>
+</html>

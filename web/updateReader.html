@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>updateReader</title>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- Custom Theme files -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
+
+</head>
+<body>
+<div class="login">
+    <!--<%-->
+    <!--Object message = request.getAttribute("message");-->
+    <!--if(message!=null && !"".equals(message)){-->
+
+    <!--%>-->
+    <!--<script type="text/javascript">-->
+    <!--alert("<%=message%>");-->
+    <!--</script>-->
+    <!--<%} %>-->
+    <a href="/readerManagement.html" > <i style="font-size:2em">Back</i>  </a>
+    <h2>修改读者信息</h2>
+    <div class="login-top">
+        <h1>读者信息</h1>
+        <form action = "/updateReader.jsp" method = "post" onsubmit = "return validate()">
+            <input type="text" value="要修改的读者ID" name="oldid" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '要修改的读者ID';}">
+            <input type="text" value="姓名" name="na" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名';}">
+            <input type="text" value="读者类别" name="cg" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '读者类别';}">
+            <input type="text" value="ID" name="id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'ID';}">
+            <input type="text" value="联系电话" name="call" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '联系电话';}">
+            <div class="forgot">
+                <input type="submit" value="修改" >
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
